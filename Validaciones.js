@@ -1,6 +1,7 @@
 let students = [ { name: 'Georg', age: 23, }, { name: 'Andrea', age: 23, }, { name: 'Daniela', age: 25, }, { name: 'José', age: 27, } ];
 
 console.log(findRepeatedAge(students))
+console.log(findRepeatedAge(students))
 
 function findRepeatedAge(students) {
     let arrayAge = []
